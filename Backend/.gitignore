@@ -1,0 +1,38 @@
+# Ignore Maven target directory (build output)
+target/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore Maven wrapper binaries
+mvnw
+mvnw.cmd
+
+# Ignore hidden Maven folder
+.mvn/
+
+# Ignore logs
+*.log
+
+# Ignore compiled files
+*.class
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment and secret files
+.env
+
+# Ignore node_modules if using frontend inside the project
+node_modules/
+
+# Ignore Git files
+.git/
+
+#Miscellaneos
+HELP.md
+
+
+#Ignore Java files
+src/test/java/com/example/demo/TestMain.java
