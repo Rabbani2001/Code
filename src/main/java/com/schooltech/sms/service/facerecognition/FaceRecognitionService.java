@@ -36,7 +36,7 @@ public class FaceRecognitionService {
 
     public Map<String, Object> identifyFace(MultipartFile image) {
 
-        String url = "http://face-app:8000/recognize-face";
+        String url = "http://face-api:8000/recognize-face";
 
         try {
             // 1. Get all saved embeddings from database
@@ -107,7 +107,7 @@ public class FaceRecognitionService {
 
     public Map<String, Object> saveOrUpdateEmbedding(String username, MultipartFile image) {
 
-        String url = "http://face-app:8000/generate-embedding";
+        String url = "http://face-api:8000/generate-embedding";
 
         try {
 
