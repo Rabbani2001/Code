@@ -5,7 +5,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.schooltech.sms.dao.client.attendence.FaceEmbeddingRepository;
 import com.schooltech.sms.entity.client.attendence.FaceEmbedding;
 import com.schooltech.sms.utility.DateUtility;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
@@ -17,7 +16,6 @@ import org.springframework.util.MultiValueMap;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.sql.Timestamp;
 import java.util.*;
 
 
