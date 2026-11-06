@@ -1,0 +1,22 @@
+CREATE TABLE staff (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255) NOT NULL UNIQUE,
+    employee_id VARCHAR(255) UNIQUE,
+    full_name VARCHAR(255) NOT NULL,
+    gender VARCHAR(255),
+    aadhar_no VARCHAR(255) UNIQUE,
+    pan_no VARCHAR(255) UNIQUE,
+    class_names JSON,
+    father_name VARCHAR(255),
+    mother_name VARCHAR(255),
+    guardian_name VARCHAR(255),
+    qualification VARCHAR(100),
+    designation VARCHAR(50) NOT NULL,
+    dob DATE,
+    permanent_address VARCHAR(255),
+    current_address VARCHAR(255),
+    joining_date DATE,
+    bus_route VARCHAR(255),
+    documents JSON,
+    timestamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

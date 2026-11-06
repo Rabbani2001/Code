@@ -1,0 +1,1 @@
+ALTER TABLE student_fee_receipt MODIFY remarks VARCHAR(255);

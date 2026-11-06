@@ -1,0 +1,1 @@
+ALTER TABLE student_exam DROP INDEX username;
